@@ -72,8 +72,8 @@ if __name__ == '__main__':
     # test and run your functions here
     print(is_palindrome('racecar'))
     fizzbuzz()
-    # print(is_palindrome('not a palindrome'))
+    print(is_palindrome('not a palindrome'))
     print(is_anagram('listen', 'silent'))
-    # print(is_anagram('not an anagram', 'anagram'))
-    # print(count_vowels('there are vowels in HERE'))
+    print(is_anagram('not an anagram', 'anagram'))
+    print(count_vowels('there are vowels in HERE'))
     print(reverse_list([1, 2, 3, 4, 5]))
