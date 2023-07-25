@@ -64,7 +64,7 @@ def reverse_list(lst):
 if __name__ == '__main__':
     # test and run your functions here
     print(is_palindrome('racecar'))
-
+    fizzbuzz()
     # print(is_palindrome('not a palindrome'))
     print(is_anagram('listen', 'silent'))
     # print(is_anagram('not an anagram', 'anagram'))
