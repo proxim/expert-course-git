@@ -13,12 +13,16 @@ def fizzbuzz():
     '''
     print('')
 
+#Tony
 def is_palindrome(str):
-    '''
-    Write a function that checks if a given string is a palindrome (i.e. reads the same
-    forwards and backwards). For example, "racecar" is a palindrome.
-    '''
-    return False
+    i2 = len(str) - 1
+    for i in range(0, len(str)):
+        print(str[i], ' ', str[i2])
+        if str[i] != str[i2]:
+            return False
+        i2 -= 1
+
+    return True
 
 def is_anagram(str1, str2):
     '''
@@ -44,10 +48,9 @@ def reverse_list(lst):
 if __name__ == '__main__':
     # test and run your functions here
     # fizzbuzz()
-    # print(is_palindrome('racecar'))
+    print(is_palindrome('racecar'))
     # print(is_palindrome('not a palindrome'))
     # print(is_anagram('listen', 'silent'))
     # print(is_anagram('not an anagram', 'anagram'))
     # print(count_vowels('there are vowels in HERE'))
     # print(reverse_list([1, 2, 3, 4, 5]))
-
