@@ -33,10 +33,10 @@ def count_vowels(str):
     (a, e, i, o, u, A, E, I, O, U) in the string.
     '''
     #Gunnar
-    input("")
+
     vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
     vwlcount = 0
-    for character in input:
+    for character in str:
         if character in vowels:
             vwlcount += 1
     return(vwlcount)
