@@ -32,7 +32,14 @@ def count_vowels(str):
     Write a program that takes a string as input and counts the number of vowels
     (a, e, i, o, u, A, E, I, O, U) in the string.
     '''
-    return 0
+    #Gunnar
+    input("")
+    vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
+    vwlcount = 0
+    for character in input:
+        if character in vowels:
+            vwlcount += 1
+    return(vwlcount)
 
 def reverse_list(lst):
     '''
