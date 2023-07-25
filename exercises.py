@@ -39,10 +39,9 @@ def count_vowels(str):
     return 0
 
 def reverse_list(lst):
-    '''
-    Write a function that takes a list as input and returns a new list with the elements
-    reversed. For example, [1, 2, 3] should become [3, 2, 1].
-    '''
+    lst2 = lst[:]
+    for i in range(0, len(lst)):
+        lst[i] = lst2[len(lst2)-i-1]
     return lst
 
 if __name__ == '__main__':
@@ -53,4 +52,4 @@ if __name__ == '__main__':
     # print(is_anagram('listen', 'silent'))
     # print(is_anagram('not an anagram', 'anagram'))
     # print(count_vowels('there are vowels in HERE'))
-    # print(reverse_list([1, 2, 3, 4, 5]))
+    print(reverse_list([1, 2, 3, 4, 5]))
